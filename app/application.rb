@@ -7,6 +7,7 @@ class Application
 
     req_1 = req.path.split("/")[1]
     req_2 = req.path.split("/")[2]
+    binding.pry
 
 
     if req_1.match(/items/)
