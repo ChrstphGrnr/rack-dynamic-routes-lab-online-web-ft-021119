@@ -10,7 +10,7 @@ class Application
     # binding.pry
 
 
-    if req_1.match("items")
+    if req_1.match(/items/)
       # binding.pry
       if Item.all.find {|i| i.name == req_2}
         resp.write "#{item_prize(req_2).price}"
